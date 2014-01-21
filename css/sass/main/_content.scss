@@ -1,0 +1,39 @@
+.list-items{
+	margin-top: 35px;
+	display: block;
+
+	text-align: center;
+	.list {
+		width: 48%;
+
+		margin: 0 auto;
+		display: inline-block;
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			text-align: left;
+			display: block;
+
+			li {
+				display: block;
+				float: left;
+				margin-bottom: -1px;
+				a, a:link, a:active {
+					padding: .5em 1em;
+					text-decoration: none;
+					display: block;
+					border-radius: 4px 4px 0 0;
+					border:1px solid #444;
+					border-bottom:1px solid #f8f8f8;
+				}
+			}
+		}
+		article {
+			clear: both;
+			border: 1px solid #444;
+			min-height: 250px;
+			margin-top: -2px;
+		}
+	}
+}
